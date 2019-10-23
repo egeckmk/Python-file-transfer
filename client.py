@@ -2,7 +2,7 @@ import socket
 
 
 HOST = socket.gethostbyname("192.168.0.104")
-PORT = 60000
+PORT = 8080
 s = socket.socket()
 
 s.connect((HOST, PORT))
